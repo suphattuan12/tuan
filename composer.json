@@ -1,0 +1,22 @@
+{
+    "name": "phattuan/phpadvance",
+    "description": "composer",
+    "autoload": {
+        "psr-4": {
+            "Phattuan\\Phpadvance\\": "src/"
+        }   
+    },
+    "authors": [
+    {
+      "name": "st-tuansu",
+      "email": "tuan.su@supremetech.vn"
+    }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "6.3.*",
+        "fakerphp/faker": "<1.13.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "8.0.0"
+    }
+}
